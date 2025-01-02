@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sanS-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #taskList li {
+    padding: 10px;
+    border: 1px solid #b81111;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #taskList li.completed {
+    text-decoration: line-through;
+    color: rgb(82, 4, 4);
+  }
